@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "files": [
     ".github/AGENTS.md",
-    ".github/FRAMEWORK_CHANGELOG.md",
+    ".github/changelogs/scf-pycode-crafter.md",
     ".github/agents/Agent-Analyze.md",
     ".github/agents/Agent-Code.md",
     ".github/agents/Agent-CodeRouter.md",
