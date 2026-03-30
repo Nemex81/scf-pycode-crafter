@@ -23,9 +23,23 @@ Oppure manualmente: copia la cartella `.github/` di questo repo nella root del t
 
 ## Compatibilità
 
-- `spark-framework-engine` >= 1.0.0
+- `spark-framework-engine` >= 1.2.0
 - Python >= 3.10
 - VS Code con GitHub Copilot
+
+## Manifest Pacchetto
+
+Il pacchetto usa `package-manifest.json` schema `2.0` con metadati espliciti per
+compatibilita motore, dipendenze dichiarative e ownership dei file.
+
+## Convenzione Changelog
+
+Il changelog canonico del pacchetto e:
+
+`.github/changelogs/scf-pycode-crafter.md`
+
+Il motore deve leggere il path dichiarato nel campo `changelog_path` del manifest
+del pacchetto, senza reintrodurre `FRAMEWORK_CHANGELOG.md` come riferimento canonico.
 
 ---
 

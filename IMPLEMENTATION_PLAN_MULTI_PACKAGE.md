@@ -25,7 +25,7 @@ Non obiettivi di questa iterazione:
 - Nessuna merge strategy tra file omonimi di pacchetti diversi.
 - Nessuna compatibilita retroattiva con range semantici nelle dipendenze.
 
-## [ ] Fase 1 - Bloccare schema e contratto dati
+## [x] Fase 1 - Bloccare schema e contratto dati
 
 Obiettivo:
 - Definire il package-manifest.json v2 come contratto stabile tra pacchetto e motore.
@@ -46,14 +46,14 @@ File attesi:
 - scf-pycode-crafter/package-manifest.json
 - scf-pycode-crafter/README.md
 
-## [ ] Fase 2 - Integrita manifest e diagnostica workspace
+## [x] Fase 2 - Integrita manifest e diagnostica workspace
 
 Obiettivo:
 - Rendere verificabile lo stato reale dei file installati dal motore.
 
 Interventi previsti:
 - Aggiungere ManifestManager.verify_integrity() nel motore.
-- Introdurre un report strutturato con almeno: missing, modified, ok, unknown_package_state, duplicate_owners, orphan_candidates.
+- Introdurre un report strutturato con almeno: missing, modified, ok, duplicate_owners, orphan_candidates.
 - Aggiungere il tool MCP scf_verify_workspace.
 - Definire se orphan_candidates significhi file presenti sotto .github non tracciati dal manifest oppure solo file attesi dal package manifest ma non presenti nel manifest runtime.
 
