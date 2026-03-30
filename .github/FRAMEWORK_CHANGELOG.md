@@ -1,11 +1,11 @@
-# FRAMEWORK_CHANGELOG — scf-pycode-crafter
+# Deprecated legacy changelog path
 
-## [1.0.0] — 2026-03-30
+Questo file legacy resta nel repository solo per compatibilità temporanea.
 
-### Prima release pubblica
+Il changelog canonico del pacchetto è ora:
 
-- Pacchetto SCF iniziale per progetti Python.
-- 11 agenti specializzati: Analyze, Code, CodeRouter, Design, Docs, Git, Helper, Orchestrator, Plan, Release, Validate.
-- 26 skill operative: accessibilità, architettura pulita, changelog, commit convenzionali, documentazione, error recovery, framework guard, git, profilo progetto, rollback, semantic gate, semver, stile, test, verbosità.
-- 10 instruction files: framework-guard, git-policy, model-policy, personality, project-reset, python, tests, verbosity, workflow-standard.
-- Compatibile con spark-framework-engine >= 1.2.0.
+- `.github/changelogs/scf-pycode-crafter.md`
+
+Il motore `spark-framework-engine` usa il nuovo pattern per-package e considera
+questo file solo come fallback legacy quando nel workspace è installato un solo
+pacchetto SCF.
