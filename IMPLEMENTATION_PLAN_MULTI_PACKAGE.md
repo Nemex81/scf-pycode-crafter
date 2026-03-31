@@ -68,7 +68,7 @@ File attesi:
 - spark-framework-engine/README.md
 - eventuale documentazione motore correlata
 
-## [ ] Fase 3 - Conflict detection e ownership enforcement
+## [x] Fase 3 - Conflict detection e ownership enforcement
 
 Obiettivo:
 - Impedire sovrascritture silenziose tra pacchetti diversi.
@@ -89,7 +89,7 @@ File attesi:
 - spark-framework-engine/spark-framework-engine.py
 - spark-framework-engine/tests/test_package_installation_conflicts.py oppure estensione dei test esistenti
 
-## [ ] Fase 4 - Compatibilita motore e dipendenze dichiarative
+## [x] Fase 4 - Compatibilita motore e dipendenze dichiarative
 
 Obiettivo:
 - Preparare il sistema a dipendenze e compatibilita senza introdurre automazione prematura.
@@ -111,7 +111,7 @@ File attesi:
 - spark-framework-engine/tests/test_package_manifest_v2.py oppure estensione dei test esistenti
 - spark-framework-engine/README.md
 
-## [ ] Fase 5 - Allineamento contenuti plugin e documentazione
+## [x] Fase 5 - Allineamento contenuti plugin e documentazione
 
 Obiettivo:
 - Rendere scf-pycode-crafter il primo package conforme al contratto v2.
@@ -131,7 +131,7 @@ File attesi:
 - scf-pycode-crafter/README.md
 - eventuali documenti motore impattati
 
-## [ ] Fase 6 - Validazione finale e readiness al rollout
+## [x] Fase 6 - Validazione finale e readiness al rollout
 
 Obiettivo:
 - Chiudere il ciclo con verifica tecnica completa e stato pronto al merge.
