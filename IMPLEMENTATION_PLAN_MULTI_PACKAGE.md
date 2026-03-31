@@ -87,7 +87,7 @@ Criteri di accettazione:
 
 File attesi:
 - spark-framework-engine/spark-framework-engine.py
-- spark-framework-engine/tests/test_package_installation_conflicts.py oppure estensione dei test esistenti
+- spark-framework-engine/tests/test_package_installation_policies.py oppure estensione dei test esistenti
 
 ## [x] Fase 4 - Compatibilita motore e dipendenze dichiarative
 
