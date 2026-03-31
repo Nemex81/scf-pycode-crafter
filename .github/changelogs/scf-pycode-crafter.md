@@ -8,6 +8,14 @@
   Il changelog canonico e esclusivamente questo file.
   Richiede spark-framework-engine >= 1.2.1.
 
+### Infrastruttura
+
+- Aggiunto `.github/workflows/sync-registry.yml`: workflow GitHub Actions che sincronizza
+  automaticamente `scf-registry/registry.json` ad ogni push su `main` che modifica
+  `package-manifest.json`. Apre una PR automatica sul registry con `latest_version` e
+  `engine_min_version` aggiornati dai valori del manifest (fonte canonica).
+  Prerequisito operativo: secret `REGISTRY_WRITE_TOKEN` configurato nel repo.
+
 ## [1.0.0] — 2026-03-30
 
 ### Prima release pubblica
