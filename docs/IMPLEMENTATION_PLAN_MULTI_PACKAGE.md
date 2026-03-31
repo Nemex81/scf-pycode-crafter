@@ -1,6 +1,6 @@
 # Piano Tecnico - Harden multi-package SCF
 
-Stato: validato con correzioni minime.
+Stato: completato
 
 Scope principale:
 - Root di riferimento: scf-pycode-crafter
