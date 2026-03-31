@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
   "package": "scf-pycode-crafter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "display_name": "SCF Python Code Crafter",
   "description": "Agenti, skill e istruzioni per lo sviluppo Python generale.",
   "author": "Nemex81",
-  "min_engine_version": "1.2.0",
+  "min_engine_version": "1.2.1",
   "dependencies": [],
   "conflicts": [],
   "file_ownership_policy": "error",

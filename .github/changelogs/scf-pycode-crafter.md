@@ -1,5 +1,13 @@
 # CHANGELOG — scf-pycode-crafter
 
+## [1.0.1] — 2026-03-31
+
+### Manutenzione
+
+- Rimosso `.github/FRAMEWORK_CHANGELOG.md` (legacy redirect).
+  Il changelog canonico e esclusivamente questo file.
+  Richiede spark-framework-engine >= 1.2.1.
+
 ## [1.0.0] — 2026-03-30
 
 ### Prima release pubblica
