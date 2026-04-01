@@ -1,5 +1,8 @@
 # Task per Copilot — Sincronizzazione Registry e Automazione Fase 3
 
+> ✅ **COMPLETATO** — Task 1 (sync manuale registry.json), Task 2 (notify-engine.yml), Task 3 (verifica) tutti eseguiti.
+> L'architettura finale differisce dal piano originale: usa `notify-engine.yml` (pycode-crafter) + `registry-sync-gateway.yml` (engine) invece di un singolo `sync-registry.yml`.
+
 ## Contesto: cosa è successo e perché
 
 Questo progetto fa parte di un ecosistema chiamato SCF (Spark Copilot Framework), composto da tre repo che devono rimanere coerenti tra loro:

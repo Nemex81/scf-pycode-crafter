@@ -1,7 +1,9 @@
 # SCF — Piano Implementativo: Rinomina Agenti con Prefisso `py-`
 
+> ✅ **COMPLETATO** — Implementato il 2026-04-01 — commit `c3125c4` su `scf-pycode-crafter/main`
+
 **Data redazione:** 2026-04-01
-**Stato:** 📋 da implementare
+**Stato:** ✅ completato
 **Versione documento:** 1.0
 **Repository target:** `scf-pycode-crafter`
 **Tipo modifica:** refactor — breaking change nei nomi pubblici degli agenti
