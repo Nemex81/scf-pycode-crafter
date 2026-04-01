@@ -13,7 +13,7 @@ Quando un task richiede sviluppo codice, questa skill determina quale agente è 
 
 ## Routing logic
 
-### Agent-Code
+### py-Agent-Code
 Task di logica pura:
 - Implementare funzioni, classi, moduli
 - Algoritmi e strutture dati
@@ -21,14 +21,14 @@ Task di logica pura:
 - Refactoring di logica esistente
 - Integrazione tra componenti
 
-### Agent-Design
+### py-Agent-Design
 Task architetturali prima dell'implementazione:
 - Definire struttura di un nuovo componente
 - Scegliere pattern da applicare
 - Progettare interfacce e contratti
 - Valutare alternative di design
 
-### Agent-Validate
+### py-Agent-Validate
 Task di verifica post-implementazione:
 - Verificare che il codice superi i test
 - Controllare type safety con mypy
@@ -38,4 +38,4 @@ Task di verifica post-implementazione:
 ## Regola di precedenza
 
 Design → Code → Validate. Non saltare fasi per task complessi.
-Per task semplici e ben definiti, vai diretto a Agent-Code.
+Per task semplici e ben definiti, vai diretto a py-Agent-Code.

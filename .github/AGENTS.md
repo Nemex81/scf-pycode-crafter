@@ -6,17 +6,17 @@ Questo pacchetto include i seguenti agenti specializzati per lo sviluppo Python.
 
 | Agente | Ruolo |
 |---|---|
-| Agent-Analyze | Analisi statica, revisione codice, identificazione problemi |
-| Agent-Code | Sviluppo funzionalità Python, implementazione logica |
-| Agent-CodeRouter | Routing intelligente tra agenti in base al task |
-| Agent-Design | Architettura software, design pattern, struttura progetto |
-| Agent-Docs | Documentazione codice, README, docstring |
-| Agent-Git | Workflow git, commit, branch, release |
-| Agent-Helper | Assistenza generale, domande, orientamento nel progetto |
-| Agent-Orchestrator | Coordinamento multi-agente per task complessi |
-| Agent-Plan | Pianificazione feature, breakdown task, roadmap |
-| Agent-Release | Gestione versioni, changelog, tag, distribuzione |
-| Agent-Validate | Quality gates, test, lint, verifica standard |
+| py-Agent-Analyze | Analisi statica, revisione codice, identificazione problemi |
+| py-Agent-Code | Sviluppo funzionalità Python, implementazione logica |
+| py-Agent-CodeRouter | Routing intelligente tra agenti in base al task |
+| py-Agent-Design | Architettura software, design pattern, struttura progetto |
+| py-Agent-Docs | Documentazione codice, README, docstring |
+| py-Agent-Git | Workflow git, commit, branch, release |
+| py-Agent-Helper | Assistenza generale, domande, orientamento nel progetto |
+| py-Agent-Orchestrator | Coordinamento multi-agente per task complessi |
+| py-Agent-Plan | Pianificazione feature, breakdown task, roadmap |
+| py-Agent-Release | Gestione versioni, changelog, tag, distribuzione |
+| py-Agent-Validate | Quality gates, test, lint, verifica standard |
 
 ## Uso
 

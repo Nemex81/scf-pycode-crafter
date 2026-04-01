@@ -1,11 +1,11 @@
 ---
-name: Agent-Git
+name: py-Agent-Git
 category: vcs
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Git
+# py-Agent-Git
 
 Gestione workflow Git — commit, branch, merge, tag, release.
 

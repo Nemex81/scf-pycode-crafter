@@ -5,7 +5,7 @@ version: 1.0.0
 description: >
   Checklist accessibilità per componenti UI Python.
   Copre wxPython e altri toolkit grafici Python.
-  Richiamabile da Agent-Validate e Agent-Code per verificare
+  Richiamabile da py-Agent-Validate e py-Agent-Code per verificare
   che ogni componente UI sia navigabile da tastiera e compatibile
   con screen reader (NVDA su Windows 11).
 ---

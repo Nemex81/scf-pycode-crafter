@@ -10,7 +10,7 @@ description: Indice e navigazione del framework SCF nel workspace corrente.
 ## Scopo
 
 Fornisce un indice navigabile del framework SCF installato nel workspace.
-Usata da Agent-Helper per rispondere a domande sulla struttura del framework.
+Usata da py-Agent-Helper per rispondere a domande sulla struttura del framework.
 
 ## Come ottenere l'indice
 

@@ -1,11 +1,11 @@
 ---
-name: Agent-Validate
+name: py-Agent-Validate
 category: validation
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Validate
+# py-Agent-Validate
 
 Validazione qualità del codice Python — test, lint, type check, quality gates.
 

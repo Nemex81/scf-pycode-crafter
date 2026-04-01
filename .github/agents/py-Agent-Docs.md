@@ -1,11 +1,11 @@
 ---
-name: Agent-Docs
+name: py-Agent-Docs
 category: documentation
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Docs
+# py-Agent-Docs
 
 Documentazione del codice Python — docstring, README, commenti architetturali.
 

@@ -1,11 +1,11 @@
 ---
-name: Agent-Release
+name: py-Agent-Release
 category: release
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Release
+# py-Agent-Release
 
 Gestione release Python — versioning, changelog, tag, distribuzione.
 

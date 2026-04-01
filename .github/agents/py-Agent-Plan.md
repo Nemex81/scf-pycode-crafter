@@ -1,11 +1,11 @@
 ---
-name: Agent-Plan
+name: py-Agent-Plan
 category: planning
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Plan
+# py-Agent-Plan
 
 Pianificazione feature e task — breakdown, stima, roadmap, prioritizzazione.
 

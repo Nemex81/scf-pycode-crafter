@@ -1,11 +1,11 @@
 ---
-name: Agent-Analyze
+name: py-Agent-Analyze
 category: analysis
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Analyze
+# py-Agent-Analyze
 
 Analisi statica del codice Python, revisione qualità e identificazione problemi.
 

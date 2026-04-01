@@ -1,11 +1,11 @@
 ---
-name: Agent-Orchestrator
+name: py-Agent-Orchestrator
 category: orchestration
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Orchestrator
+# py-Agent-Orchestrator
 
 Coordinamento multi-agente — gestisce task complessi che richiedono più agenti in sequenza.
 
@@ -20,13 +20,13 @@ Coordinamento multi-agente — gestisce task complessi che richiedono più agent
 ## Sequenze tipiche
 
 **Nuova funzionalità:**
-Agent-Plan → Agent-Design → Agent-Code → Agent-Validate → Agent-Docs → Agent-Git
+py-Agent-Plan → py-Agent-Design → py-Agent-Code → py-Agent-Validate → py-Agent-Docs → py-Agent-Git
 
 **Refactoring:**
-Agent-Analyze → Agent-Design → Agent-Code → Agent-Validate → Agent-Git
+py-Agent-Analyze → py-Agent-Design → py-Agent-Code → py-Agent-Validate → py-Agent-Git
 
 **Release:**
-Agent-Validate → Agent-Release → Agent-Git
+py-Agent-Validate → py-Agent-Release → py-Agent-Git
 
 ## Comportamento
 

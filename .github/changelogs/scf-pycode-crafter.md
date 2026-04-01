@@ -1,5 +1,23 @@
 # CHANGELOG — scf-pycode-crafter
 
+## [1.1.0] — 2026-04-01
+
+### Breaking Changes
+
+- Tutti gli agenti rinominati con prefisso `py-` per namespace plugin in ecosistemi SCF multi-plugin.
+  Riferimenti a `Agent-Code`, `Agent-Plan`, `Agent-Validate`, ecc. vanno aggiornati a
+  `py-Agent-Code`, `py-Agent-Plan`, `py-Agent-Validate`, ecc.
+
+### Modificato
+
+- Rinominati 11 file agente da `Agent-Xxx.md` a `py-Agent-Xxx.md`
+- Aggiornato campo `name:` nel frontmatter di ciascun agente
+- Aggiornato `AGENTS.md` con i nuovi nomi nella tabella indice
+- Aggiornate skill `agent-selector`, `code-routing`, `framework-index`, `validate-accessibility`
+- Aggiornato `package-manifest.json` con i nuovi path agenti
+
+---
+
 ## [1.0.1] — 2026-03-31
 
 ### Manutenzione

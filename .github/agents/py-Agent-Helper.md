@@ -1,11 +1,11 @@
 ---
-name: Agent-Helper
+name: py-Agent-Helper
 category: support
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Helper
+# py-Agent-Helper
 
 Assistenza generale — risposte a domande, orientamento nel progetto, supporto al developer.
 

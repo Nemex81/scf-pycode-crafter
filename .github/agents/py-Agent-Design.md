@@ -1,11 +1,11 @@
 ---
-name: Agent-Design
+name: py-Agent-Design
 category: architecture
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Design
+# py-Agent-Design
 
 Architettura software Python — design di sistema, pattern, struttura del progetto.
 

@@ -1,11 +1,11 @@
 ---
-name: Agent-Code
+name: py-Agent-Code
 category: development
 version: 1.0.0
 package: scf-pycode-crafter
 ---
 
-# Agent-Code
+# py-Agent-Code
 
 Sviluppo funzionalità Python — implementazione logica di business, moduli, classi e funzioni.
 
