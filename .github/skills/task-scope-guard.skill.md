@@ -1,11 +1,11 @@
 ---
 name: task-scope-guard
 package: scf-pycode-crafter
-version: 1.0.0
+version: 2.0.0
 description: Delimita lo scope delle operazioni per evitare modifiche fuori contesto.
 ---
 
-# Skill: Framework Scope Guard
+# Skill: Task Scope Guard
 
 ## Scopo
 
