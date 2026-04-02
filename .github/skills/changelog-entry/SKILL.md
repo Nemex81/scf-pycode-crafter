@@ -1,7 +1,7 @@
 ---
 name: changelog-entry
 package: scf-pycode-crafter
-version: 1.0.0
+version: 2.0.0
 description: Genera una voce di changelog strutturata in formato Keep a Changelog.
 ---
 

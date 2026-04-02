@@ -1,7 +1,7 @@
 ---
 name: validate-accessibility
 package: scf-pycode-crafter
-version: 1.0.0
+version: 2.0.0
 description: >
   Checklist accessibilità per componenti UI Python.
   Copre wxPython e altri toolkit grafici Python.

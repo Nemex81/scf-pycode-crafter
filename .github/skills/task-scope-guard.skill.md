@@ -1,5 +1,5 @@
 ---
-name: framework-scope-guard
+name: task-scope-guard
 package: scf-pycode-crafter
 version: 1.0.0
 description: Delimita lo scope delle operazioni per evitare modifiche fuori contesto.

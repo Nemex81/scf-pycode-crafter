@@ -1,8 +1,8 @@
 ---
 name: framework-query
 package: scf-pycode-crafter
-version: 1.0.0
-description: Pattern per interrogare il framework SCF tramite il server MCP.
+version: 2.0.0
+description: Pattern per interrogare il framework SCF tramite il server MCP e navigarne la struttura.
 ---
 
 # Skill: Framework Query
@@ -19,6 +19,8 @@ scf_list_agents()             → agenti disponibili
 scf_get_agent(name)           → contenuto di un agente specifico
 scf_list_skills()             → skill disponibili
 scf_get_skill(name)           → contenuto di una skill specifica
+scf_list_instructions()       → instruction disponibili
+scf_list_prompts()            → prompt disponibili
 ```
 
 ## Ordine di interrogazione consigliato
@@ -26,6 +28,11 @@ scf_get_skill(name)           → contenuto di una skill specifica
 1. `scf_get_project_profile` — capire il contesto del progetto
 2. `scf_get_global_instructions` — caricare le istruzioni operative
 3. Tool specifici in base al task
+
+## Struttura attesa in `.github/`
+
+Consulta `reference/mcp-tool-index.md` per l'indice completo della struttura
+del workspace e dei tool MCP disponibili.
 
 ## Regola
 

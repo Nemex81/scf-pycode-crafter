@@ -1,5 +1,34 @@
 # CHANGELOG — scf-pycode-crafter
 
+## [1.2.0] — 2026-04-02
+
+### Added
+- Migrazione 7 skill al formato cartella Agent Skills standard con asset bundlati:
+  `docs-manager`, `clean-architecture` (ex `clean-architecture-rules`),
+  `error-recovery`, `changelog-entry`, `validate-accessibility`,
+  `project-doc-bootstrap`, `framework-query`.
+- Ogni skill migrata include template, reference o checklist bundlati
+  come asset separati nella propria cartella.
+- `framework-query` ora include `reference/mcp-tool-index.md`:
+  indice completo dei tool MCP e della struttura workspace.
+- Checklist NVDA e navigazione da tastiera come asset dedicati
+  in `validate-accessibility/checklists/`.
+
+### Changed
+- `framework-scope-guard` rinominata `task-scope-guard` per correttezza semantica:
+  la skill riguarda lo scope generale dei task, non specificamente SCF.
+- `framework-index` fusa in `framework-query`: il contenuto dell'indice
+  navigabile è ora in `framework-query/reference/mcp-tool-index.md`.
+- `clean-architecture-rules` rinominata `clean-architecture` (nome più conciso).
+- `min_engine_version` aggiornata a `1.3.0`.
+
+### Removed
+- `framework-index.skill.md` — contenuto assorbito da `framework-query/`.
+- `framework-scope-guard.skill.md` — sostituita da `task-scope-guard.skill.md`.
+- `clean-architecture-rules.skill.md` — sostituita da `clean-architecture/`.
+
+---
+
 ## [1.1.0] — 2026-04-01
 
 ### Breaking Changes
