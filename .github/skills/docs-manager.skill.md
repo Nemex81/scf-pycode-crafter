@@ -1,5 +1,5 @@
 ---
-name: docs_manager
+name: docs-manager
 package: scf-pycode-crafter
 version: 1.0.0
 description: Gestione completa della documentazione di un progetto Python.
