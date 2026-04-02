@@ -1,8 +1,9 @@
 ---
 name: semantic-gate
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Validazione semantica pre-commit per garantire qualità del codice.
+spark: true
 ---
 
 # Skill: Semantic Gate

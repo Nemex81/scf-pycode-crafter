@@ -1,8 +1,9 @@
 ---
 name: project-doc-bootstrap
 package: scf-pycode-crafter
-version: 2.0.0
+version: 1.2.1
 description: Bootstrap documentazione iniziale per un nuovo progetto Python.
+spark: true
 ---
 
 # Skill: Project Doc Bootstrap

@@ -1,8 +1,9 @@
 ---
 name: framework-query
 package: scf-pycode-crafter
-version: 2.0.0
+version: 1.2.1
 description: Pattern per interrogare il framework SCF tramite il server MCP e navigarne la struttura.
+spark: true
 ---
 
 # Skill: Framework Query

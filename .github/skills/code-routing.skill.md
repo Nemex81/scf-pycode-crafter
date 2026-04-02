@@ -1,8 +1,9 @@
 ---
 name: code-routing
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Routing tra agenti di sviluppo in base alla natura del task di codice.
+spark: true
 ---
 
 # Skill: Code Routing

@@ -1,5 +1,20 @@
 # CHANGELOG — scf-pycode-crafter
 
+## [1.2.1] — 2026-04-02
+
+### Added
+- Campo `spark: true` nel frontmatter YAML di tutti i componenti gestiti dal pacchetto
+  (agenti, skill, instruction) per consentire al motore la classificazione tripartita
+  dei file non tracciati (`managed` / `user` / `untagged`).
+- Campo `name:` aggiunto al frontmatter delle instruction (dove mancante), coerente
+  con la convenzione già presente in agenti e skill.
+
+### Changed
+- Campo `version` nel frontmatter di tutti i componenti aggiornato a `1.2.1`
+  (versione pacchetto al momento dell'ultima modifica).
+
+---
+
 ## [1.2.0] — 2026-04-02
 
 ### Added

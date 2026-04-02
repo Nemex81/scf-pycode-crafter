@@ -1,8 +1,9 @@
 ---
 name: verbosity
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Controllo del livello di verbosità delle risposte dell'assistente.
+spark: true
 ---
 
 # Skill: Verbosity

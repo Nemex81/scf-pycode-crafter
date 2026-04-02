@@ -1,8 +1,9 @@
 ---
 name: style-setup
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Configurazione strumenti di stile e linting per Python.
+spark: true
 ---
 
 # Skill: Style Setup

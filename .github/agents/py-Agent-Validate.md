@@ -1,8 +1,9 @@
 ---
 name: py-Agent-Validate
 category: validation
-version: 1.0.0
+version: 1.2.1
 package: scf-pycode-crafter
+spark: true
 ---
 
 # py-Agent-Validate

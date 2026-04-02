@@ -1,8 +1,9 @@
 ---
 name: git-execution
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Procedure operative per esecuzione comandi git in sicurezza.
+spark: true
 ---
 
 # Skill: Git Execution

@@ -1,8 +1,9 @@
 ---
 name: conventional-commit
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Formato Conventional Commits per messaggi di commit git.
+spark: true
 ---
 
 # Skill: Conventional Commit

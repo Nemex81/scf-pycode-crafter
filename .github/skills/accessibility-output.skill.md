@@ -1,12 +1,13 @@
 ---
 name: accessibility-output
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: >
   Standard di output per tutti gli agenti del framework.
   Garantisce che ogni risposta sia navigabile da tastiera e
   compatibile con screen reader (NVDA su Windows 11).
   Richiamabile da tutti gli agenti del framework.
+spark: true
 ---
 
 # Skill: Accessibility Output

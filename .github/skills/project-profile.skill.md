@@ -1,8 +1,9 @@
 ---
 name: project-profile
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Lettura e interpretazione del project-profile.md SCF.
+spark: true
 ---
 
 # Skill: Project Profile

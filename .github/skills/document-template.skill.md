@@ -1,8 +1,9 @@
 ---
 name: document-template
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Template e strutture standard per documenti del progetto.
+spark: true
 ---
 
 # Skill: Document Template

@@ -1,8 +1,9 @@
 ---
 name: framework-guard
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Protezione dell'integrità del framework SCF nel workspace.
+spark: true
 ---
 
 # Skill: Framework Guard

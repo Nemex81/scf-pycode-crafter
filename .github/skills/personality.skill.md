@@ -1,8 +1,9 @@
 ---
 name: personality
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Profilo di personalità e stile comunicativo dell'assistente AI.
+spark: true
 ---
 
 # Skill: Personality

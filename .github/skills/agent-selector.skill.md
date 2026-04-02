@@ -1,11 +1,12 @@
 ---
 name: agent-selector
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: >
   Pattern matching deterministico per selezionare l'agente corretto
   dato un task o una domanda. Prima regola che corrisponde vince.
   Riutilizzabile da py-Agent-Helper e py-Agent-Orchestrator.
+spark: true
 ---
 
 # Skill: Agent Selector

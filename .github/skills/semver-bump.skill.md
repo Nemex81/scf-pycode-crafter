@@ -1,8 +1,9 @@
 ---
 name: semver-bump
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Calcolo del bump di versione semver in base alle modifiche.
+spark: true
 ---
 
 # Skill: Semver Bump

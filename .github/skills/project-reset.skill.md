@@ -1,8 +1,9 @@
 ---
 name: project-reset
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Procedura di reset del contesto SCF per una nuova sessione di lavoro.
+spark: true
 ---
 
 # Skill: Project Reset

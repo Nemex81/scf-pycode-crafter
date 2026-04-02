@@ -1,8 +1,9 @@
 ---
 name: file-deletion-guard
 package: scf-pycode-crafter
-version: 1.0.0
+version: 1.2.1
 description: Protezione contro eliminazioni accidentali di file critici del progetto.
+spark: true
 ---
 
 # Skill: File Deletion Guard

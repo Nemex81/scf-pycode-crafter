@@ -1,13 +1,14 @@
 ---
 name: validate-accessibility
 package: scf-pycode-crafter
-version: 2.0.0
+version: 1.2.1
 description: >
   Checklist accessibilità per componenti UI Python.
   Copre wxPython e altri toolkit grafici Python.
   Richiamabile da py-Agent-Validate e py-Agent-Code per verificare
   che ogni componente UI sia navigabile da tastiera e compatibile
   con screen reader (NVDA su Windows 11).
+spark: true
 ---
 
 # Skill: Validate Accessibility
