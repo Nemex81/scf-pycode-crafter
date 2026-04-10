@@ -1,8 +1,9 @@
 ---
 name: py-Agent-Analyze
-category: analysis
-version: 1.2.1
-package: scf-pycode-crafter
+version: 2.0.0
+plugin: scf-pycode-crafter
+capabilities: [analyze, code-review, refactor, type-check]
+languages: [python]
 spark: true
 ---
 

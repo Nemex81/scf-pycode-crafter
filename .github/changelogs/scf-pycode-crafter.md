@@ -1,5 +1,22 @@
 # CHANGELOG — scf-pycode-crafter
 
+## [2.0.0] — 2026-04-10
+
+### Added
+- Creato `.github/AGENTS-python.md` come indice plugin-specifico degli agenti Python.
+- Creato `.github/python.profile.md` come profilo tecnico del plugin Python.
+- Aggiunti `plugin`, `capabilities` e `languages` al frontmatter degli agenti Python mantenuti.
+
+### Changed
+- Il pacchetto ora dipende da `scf-master-codecrafter`.
+- `min_engine_version` aggiornato a `1.5.0`.
+- Il perimetro del pacchetto viene ridotto ai soli componenti Python-specifici.
+
+### Removed
+- Rimossi agenti, skill, instruction e file root trasversali migrati nel layer master.
+
+---
+
 ## [1.2.1] — 2026-04-02
 
 ### Added

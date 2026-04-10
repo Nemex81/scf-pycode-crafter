@@ -1,8 +1,9 @@
 ---
 name: py-Agent-Code
-category: development
-version: 1.2.1
-package: scf-pycode-crafter
+version: 2.0.0
+plugin: scf-pycode-crafter
+capabilities: [code, implementation]
+languages: [python]
 spark: true
 ---
 

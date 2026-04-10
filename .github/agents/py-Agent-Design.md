@@ -1,8 +1,9 @@
 ---
 name: py-Agent-Design
-category: architecture
-version: 1.2.1
-package: scf-pycode-crafter
+version: 2.0.0
+plugin: scf-pycode-crafter
+capabilities: [design, architecture]
+languages: [python]
 spark: true
 ---
 
