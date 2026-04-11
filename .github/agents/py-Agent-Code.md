@@ -2,7 +2,7 @@
 name: py-Agent-Code
 version: 2.0.0
 plugin: scf-pycode-crafter
-capabilities: [code, implementation]
+capabilities: [code, implementation, code-ui, ui, docs]
 languages: [python]
 spark: true
 ---
