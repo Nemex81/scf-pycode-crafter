@@ -10,7 +10,7 @@ version: 2.0.0
 
 | Nome | Capabilities | Linguaggi |
 |---|---|---|
-| py-Agent-Code | code, implementation | python |
+| py-Agent-Code | code, implementation, code-ui, ui, docs | python |
 | py-Agent-Analyze | analyze, code-review, refactor, type-check | python |
 | py-Agent-Design | design, architecture | python |
 | py-Agent-Plan | plan | python |
