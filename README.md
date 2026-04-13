@@ -20,7 +20,7 @@ Questo pacchetto installa nella cartella `.github/` del tuo workspace:
 
 Tramite il server MCP `spark-framework-engine`:
 
-```
+```python
 scf_install_package("scf-pycode-crafter")
 ```
 
@@ -29,7 +29,7 @@ gestisca la dipendenza in base al manifest del package.
 
 ## Compatibilità
 
-- `spark-framework-engine` >= 1.5.0
+- `spark-framework-engine` >= 1.9.0
 - `scf-master-codecrafter` installato
 - Python >= 3.10
 - VS Code con GitHub Copilot
@@ -54,6 +54,6 @@ del pacchetto, senza reintrodurre `FRAMEWORK_CHANGELOG.md` come riferimento cano
 - Questo plugin aggiunge solo competenze Python-specifiche sopra il layer master.
 - Gli aggiornamenti devono restare coerenti con le dipendenze dichiarate nel manifest.
 
----
+## Note
 
-*SPARK Code Framework — pacchetto dominio Python*
+SPARK Code Framework — pacchetto dominio Python.

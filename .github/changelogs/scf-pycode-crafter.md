@@ -1,18 +1,23 @@
+<!-- markdownlint-disable MD024 -->
+
 # CHANGELOG — scf-pycode-crafter
 
 ## [2.0.0] — 2026-04-10
 
 ### Added
+
 - Creato `.github/AGENTS-python.md` come indice plugin-specifico degli agenti Python.
 - Creato `.github/python.profile.md` come profilo tecnico del plugin Python.
 - Aggiunti `plugin`, `capabilities` e `languages` al frontmatter degli agenti Python mantenuti.
 
 ### Changed
+
 - Il pacchetto ora dipende da `scf-master-codecrafter`.
-- `min_engine_version` aggiornato a `1.5.0`.
+- `min_engine_version` aggiornato a `1.9.0`.
 - Il perimetro del pacchetto viene ridotto ai soli componenti Python-specifici.
 
 ### Removed
+
 - Rimossi agenti, skill, instruction e file root trasversali migrati nel layer master.
 
 ---
@@ -20,6 +25,7 @@
 ## [1.2.1] — 2026-04-02
 
 ### Added
+
 - Campo `spark: true` nel frontmatter YAML di tutti i componenti gestiti dal pacchetto
   (agenti, skill, instruction) per consentire al motore la classificazione tripartita
   dei file non tracciati (`managed` / `user` / `untagged`).
@@ -27,6 +33,7 @@
   con la convenzione già presente in agenti e skill.
 
 ### Changed
+
 - Campo `version` nel frontmatter di tutti i componenti aggiornato a `1.2.1`
   (versione pacchetto al momento dell'ultima modifica).
 
@@ -35,6 +42,7 @@
 ## [1.2.0] — 2026-04-02
 
 ### Added
+
 - Migrazione 7 skill al formato cartella Agent Skills standard con asset bundlati:
   `docs-manager`, `clean-architecture` (ex `clean-architecture-rules`),
   `error-recovery`, `changelog-entry`, `validate-accessibility`,
@@ -47,6 +55,7 @@
   in `validate-accessibility/checklists/`.
 
 ### Changed
+
 - `framework-scope-guard` rinominata `task-scope-guard` per correttezza semantica:
   la skill riguarda lo scope generale dei task, non specificamente SCF.
 - `framework-index` fusa in `framework-query`: il contenuto dell'indice
@@ -55,9 +64,12 @@
 - `min_engine_version` aggiornata a `1.3.0`.
 
 ### Removed
+
 - `framework-index.skill.md` — contenuto assorbito da `framework-query/`.
 - `framework-scope-guard.skill.md` — sostituita da `task-scope-guard.skill.md`.
 - `clean-architecture-rules.skill.md` — sostituita da `clean-architecture/`.
+
+<!-- markdownlint-enable MD024 -->
 
 ---
 
