@@ -1,6 +1,6 @@
 ---
 name: py-Agent-Design
-version: 2.0.0
+version: 2.0.1
 plugin: scf-pycode-crafter
 capabilities: [design, architecture]
 languages: [python]

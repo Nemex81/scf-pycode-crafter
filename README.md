@@ -29,7 +29,7 @@ gestisca la dipendenza in base al manifest del package.
 
 ## Compatibilità
 
-- `spark-framework-engine` >= 1.9.0
+- `spark-framework-engine` >= 2.1.0
 - `scf-master-codecrafter` installato
 - Python >= 3.10
 - VS Code con GitHub Copilot

@@ -1,7 +1,7 @@
 ---
 spark: true
 plugin: scf-pycode-crafter
-version: 2.0.0
+version: 2.0.1
 ---
 
 # AGENTS — scf-pycode-crafter (Python)

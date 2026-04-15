@@ -2,7 +2,7 @@
 applyTo: "tests/**/*.py"
 name: tests
 package: scf-pycode-crafter
-version: 1.2.1
+version: 2.0.1
 spark: true
 ---
 
