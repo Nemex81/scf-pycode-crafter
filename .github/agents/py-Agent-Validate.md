@@ -1,10 +1,16 @@
 ---
-name: py-Agent-Validate
-version: 2.0.1
 plugin: scf-pycode-crafter
+scf_file_role: "agent"
+name: py-Agent-Validate
+scf_merge_priority: 30
+scf_merge_strategy: "replace"
+scf_version: "2.0.1"
+version: 2.0.1
+scf_protected: false
+scf_owner: "scf-pycode-crafter"
 capabilities: [validate, test, lint]
-languages: [python]
 spark: true
+languages: [python]
 ---
 
 # py-Agent-Validate

@@ -1,9 +1,15 @@
 ---
-applyTo: "tests/**/*.py"
+scf_protected: false
+scf_file_role: "instruction"
 name: tests
+applyTo: "tests/**/*.py"
+scf_merge_strategy: "replace"
+scf_version: "2.0.1"
 package: scf-pycode-crafter
-version: 2.0.1
+scf_merge_priority: 30
+scf_owner: "scf-pycode-crafter"
 spark: true
+version: 2.0.1
 ---
 
 # Instruction: Tests

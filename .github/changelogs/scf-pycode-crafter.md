@@ -1,3 +1,12 @@
+---
+spark: true
+scf_file_role: "config"
+scf_version: "2.0.1"
+scf_merge_strategy: "replace"
+scf_protected: false
+scf_owner: "scf-pycode-crafter"
+scf_merge_priority: 30
+---
 <!-- markdownlint-disable MD024 -->
 
 # CHANGELOG — scf-pycode-crafter

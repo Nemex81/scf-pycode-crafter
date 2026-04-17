@@ -1,6 +1,12 @@
 ---
-spark: true
 plugin: scf-pycode-crafter
+scf_file_role: "config"
+scf_merge_priority: 30
+scf_merge_strategy: "replace"
+scf_version: "2.0.1"
+scf_protected: false
+scf_owner: "scf-pycode-crafter"
+spark: true
 version: 2.0.1
 ---
 

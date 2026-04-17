@@ -1,10 +1,16 @@
 ---
-name: py-Agent-Analyze
-version: 2.0.1
 plugin: scf-pycode-crafter
+scf_file_role: "agent"
+name: py-Agent-Analyze
+scf_merge_priority: 30
+scf_merge_strategy: "replace"
+scf_version: "2.0.1"
+version: 2.0.1
+scf_protected: false
+scf_owner: "scf-pycode-crafter"
 capabilities: [analyze, code-review, refactor, type-check]
-languages: [python]
 spark: true
+languages: [python]
 ---
 
 # py-Agent-Analyze
