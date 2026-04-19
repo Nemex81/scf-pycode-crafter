@@ -3,7 +3,7 @@
 Plugin SCF per progetti Python.
 
 Questo package non e piu un layer framework completo: fornisce solo i componenti
-Python-specifici e richiede `scf-master-codecrafter` come dipendenza.
+Python-specifici e richiede `scf-master-codecrafter` come dipendenza diretta.
 
 ## Contenuto
 
@@ -16,6 +16,8 @@ Questo pacchetto installa nella cartella `.github/` del tuo workspace:
 - **Reference Python:** `error-recovery/reference/errors-python.md`
 - **Workflow:** `notify-engine.yml` per notificare aggiornamenti del manifest al motore
 
+Il manifest corrente del pacchetto e `package-manifest.json` schema `2.1`, versione `2.0.1`, con 13 file gestiti.
+
 ## Installazione
 
 Tramite il server MCP `spark-framework-engine`:
@@ -25,7 +27,9 @@ scf_install_package("scf-pycode-crafter")
 ```
 
 Prerequisito: installare prima `scf-master-codecrafter`, oppure lasciare che il motore
-gestisca la dipendenza in base al manifest del package.
+gestisca la dipendenza dichiarata nel manifest. La catena effettiva diventa:
+
+`spark-base` → `scf-master-codecrafter` → `scf-pycode-crafter`
 
 ## Compatibilità
 
@@ -36,7 +40,7 @@ gestisca la dipendenza in base al manifest del package.
 
 ## Manifest Pacchetto
 
-Il pacchetto usa `package-manifest.json` schema `2.0` con metadati espliciti per
+Il pacchetto usa `package-manifest.json` schema `2.1` con metadati espliciti per
 compatibilita motore, dipendenze dichiarative e ownership dei file.
 
 ## Convenzione Changelog
