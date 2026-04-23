@@ -15,9 +15,9 @@ scf_merge_priority: 30
 
 ### Changed
 
-- `min_engine_version` del pacchetto aggiornata a `2.1.0` per allinearla al layer `scf-master-codecrafter` e al registry corrente.
+- `min_engine_version` del pacchetto aggiornata a `2.4.0` per allinearla al layer `scf-master-codecrafter` e al registry corrente.
 - Frontmatter version dei componenti Python gestiti dal pacchetto riallineati a `2.0.1`.
-- README del pacchetto aggiornato alla compatibilita reale con `spark-framework-engine >= 2.1.0`.
+- README del pacchetto aggiornato alla compatibilita reale con `spark-framework-engine >= 2.4.0`.
 
 ---
 

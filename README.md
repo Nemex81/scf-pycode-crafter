@@ -33,7 +33,7 @@ gestisca la dipendenza dichiarata nel manifest. La catena effettiva diventa:
 
 ## Compatibilità
 
-- `spark-framework-engine` >= 2.1.0
+- `spark-framework-engine` >= 2.4.0
 - `scf-master-codecrafter` installato
 - Python >= 3.10
 - VS Code con GitHub Copilot
