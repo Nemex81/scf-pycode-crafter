@@ -7,7 +7,10 @@
     "author":  "Nemex81",
     "min_engine_version":  "2.4.0",
     "dependencies":  [
-                         "scf-master-codecrafter"
+                         {
+                             "id":  "scf-master-codecrafter",
+                             "min_version":  "2.2.0"
+                         }
                      ],
     "conflicts":  [
 
