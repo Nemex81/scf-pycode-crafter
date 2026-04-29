@@ -11,6 +11,12 @@ scf_merge_priority: 30
 
 # CHANGELOG — scf-pycode-crafter
 
+## [2.2.1] — 2026-04-28
+
+### Changed
+
+- Bump patch di compatibilita: `min_engine_version` aggiornata a `3.1.0` senza cambiamenti funzionali agli agenti/tool Python del pacchetto.
+
 ## [2.0.1] — 2026-04-15
 
 ### Changed
