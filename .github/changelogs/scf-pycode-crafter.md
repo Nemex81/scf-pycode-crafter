@@ -11,6 +11,12 @@ scf_merge_priority: 30
 
 # CHANGELOG — scf-pycode-crafter
 
+## [Unreleased]
+
+### Changed
+
+- bump version 2.2.2 → 2.3.0; allineamento README a manifest reale
+
 ## [2.2.1] — 2026-04-28
 
 ### Changed

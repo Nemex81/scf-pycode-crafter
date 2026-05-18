@@ -16,7 +16,7 @@ Questo pacchetto installa nella cartella `.github/` del tuo workspace:
 - **Reference Python:** `error-recovery/reference/errors-python.md`
 - **Workflow:** `notify-engine.yml` per notificare aggiornamenti del manifest al motore
 
-Il manifest corrente del pacchetto e `package-manifest.json` schema `2.1`, versione `2.0.1`, con 13 file gestiti.
+Il manifest corrente del pacchetto e `package-manifest.json` schema `3.1`, versione `2.3.0`, con 13 file gestiti.
 
 ## Installazione
 
@@ -26,21 +26,21 @@ Tramite il server MCP `spark-framework-engine`:
 scf_install_package("scf-pycode-crafter")
 ```
 
-Prerequisito: installare prima `scf-master-codecrafter`, oppure lasciare che il motore
+Prerequisito: installare prima `scf-master-codecrafter >= 2.7.0`, oppure lasciare che il motore
 gestisca la dipendenza dichiarata nel manifest. La catena effettiva diventa:
 
-`spark-base` → `scf-master-codecrafter` → `scf-pycode-crafter`
+`spark-base` → `scf-master-codecrafter >= 2.7.0` → `scf-pycode-crafter >= 2.3.0`
 
 ## Compatibilità
 
-- `spark-framework-engine` >= 2.4.0
+- `spark-framework-engine` >= 3.6.0
 - `scf-master-codecrafter` installato
 - Python >= 3.10
 - VS Code con GitHub Copilot
 
 ## Manifest Pacchetto
 
-Il pacchetto usa `package-manifest.json` schema `2.1` con metadati espliciti per
+Il pacchetto usa `package-manifest.json` schema `3.1` con metadati espliciti per
 compatibilita motore, dipendenze dichiarative e ownership dei file.
 
 ## Convenzione Changelog
